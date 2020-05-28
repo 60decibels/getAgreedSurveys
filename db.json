@@ -1,0 +1,43 @@
+{
+    "agreedSurveys": [
+        {
+            "id": "cka80ihap01xe07162cic97zo",
+            "funder": {
+                "name": "Funder Name"
+            },
+            "investee": {
+                "name": "Company Name"
+            },
+            "productOrServiceName": "Product Service Name",
+            "country": {
+                "iso2Code": "GB"
+            },
+            "language": {
+                "isoCode": "en"
+            },
+            "method": {
+                "name": "Online"
+            },
+            "modulesLight": [
+                {
+                    "key": "fi_income_change",
+                    "order": 10
+                },
+                {
+                    "key": "fi_loan_availability",
+                    "order": 4
+                }
+            ],
+            "modulesFull": [
+                {
+                    "key": "core_insights",
+                    "order": 1
+                },
+                {
+                    "key": "fi_overindebtedness",
+                    "order": 7
+                }
+            ]
+        }
+    ]
+}
